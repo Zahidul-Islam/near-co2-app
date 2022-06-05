@@ -6,11 +6,17 @@ Web App for tracking NEAR account-level carbon emission.
 
 # Getting started
 
-`~> git clone git@github.com:Zahidul-Islam/near-co2-app.git ~> cd near-co2-app`
+```
+~> git clone git@github.com:Zahidul-Islam/near-co2-app.git
+~> cd near-co2-app
+```
 
 # Run
 
-`~> npm install ~> npm start`
+```
+~> npm install
+~> npm start
+```
 
 # Explore
 
