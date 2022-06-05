@@ -1,0 +1,50 @@
+.ProfilePageContainer {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  min-height: calc(100vh - 90px);
+}
+
+.ProfilePage {
+  width: 100%;
+  width: 100%;
+  max-width: 1250px;
+  height: 100%;
+}
+
+.ProfilePageContainer .ProfilePage h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.ProfilePageContainer .ProfilePage .table {
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ProfilePageContainer .ProfilePage .table .tableItem {
+  border: 4px rgba(0, 0, 0, 0.25) solid;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.ProfilePageContainer .ProfilePage .table .tableItem h4 {
+  color: #444;
+  font-weight: 700;
+}
+
+.ProfilePageContainer .ProfilePage .table .tableItem .responce h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.ProfilePageContainer .ProfilePage .otherTable {
+  padding: 20px;
+}
