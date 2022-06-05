@@ -102,7 +102,7 @@ export default function ProfilePage() {
             </div>
 
             <div className="tableItem" style={{ borderLeftWidth: 0 }}>
-              <h4>CO2 Perk Wh</h4>
+              <h4>CO2 Per kWh</h4>
               <div
                 className="responce"
                 style={{
