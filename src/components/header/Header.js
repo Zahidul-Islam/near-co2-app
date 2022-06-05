@@ -1,4 +1,4 @@
-import { Chip } from "@mui/material";
+import { Chip, Stack } from "@mui/material";
 import { useState } from "react";
 import "./Header.css";
 import CircleIcon from "@mui/icons-material/Circle";
@@ -14,7 +14,14 @@ export default function Header({ hideSearch }) {
       <div className="header">
         <div className="leftSection">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <h2 style={{ color: "#00ff00" }}>GREENEAR</h2>
+            <div
+              style={{
+                overflowY: "hidden",
+              }}
+            >
+              <h2 style={{ color: "black" }}>NEAR</h2>
+              <h2 style={{ color: "#00ff00" }}>ZERO</h2>
+            </div>
           </Link>
         </div>
 
